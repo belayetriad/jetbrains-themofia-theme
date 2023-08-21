@@ -1,9 +1,87 @@
 # Jetbrains Themofia Theme
 JetBrains Themofia Theme: A serene color scheme &amp; keymap for JetBrains IDEs. Elevate your coding with stylish visuals &amp; efficient keybindings.
 
-# Themofia Keymap Documentation
+# Themofia Keymap Keybindings Documentation
 
-The Themofia keymap is a color scheme configuration used to define the visual appearance of code and console output in an integrated development environment (IDE). This documentation provides an overview of the keymap's structure and its associated color attributes.
+The Themofia keymap provides a set of keybindings for various actions within the integrated development environment (IDE). These keybindings enhance productivity by allowing developers to quickly perform common tasks. Below is a list of keybindings and their associated actions in the Themofia keymap.
+
+## Basic Editing
+
+- **Undo:** `Ctrl + Z`
+- **Move to Next Change in Changes View:** `Not specified`
+- **Close Active Content (Tab/Editor):** `Ctrl + F4`, `Ctrl + W`
+
+## Code Navigation and Manipulation
+
+- **Show Code Inspections on Editor:** `Not specified`
+- **Backspace (Delete Previous Character):** `Backspace`
+- **Delete (Delete Next Character):** `Delete`, `Shift + Backspace`
+- **Delete Line:** `Ctrl + Y`, `Alt + Backspace`
+- **Move Cursor Down:** `Down Arrow`, `Alt + Comma`
+- **Move Cursor Down with Selection:** `Shift + Down Arrow`, `Shift + Alt + Comma`
+- **Join Lines:** `Not specified`
+- **Move Cursor Left:** `Left Arrow`, `Alt + J`
+- **Move Cursor Left with Selection:** `Shift + Left Arrow`, `Shift + Alt + J`
+- **Move Cursor to Line End:** `End`, `Alt + Quote`
+- **Move Cursor to Line End with Selection:** `Shift + End`, `Shift + Alt + Quote`
+- **Move Cursor to Line Start:** `Home`, `Alt + H`
+- **Move Cursor to Line Start with Selection:** `Shift + Home`, `Shift + Alt + H`
+- **Match Brace:** `Ctrl + H`, `Alt + M`
+- **Move to Next Word:** `Ctrl + Right Arrow`, `Ctrl + L`
+- **Move to Next Word with Selection:** `Shift + Ctrl + Right Arrow`, `Shift + Ctrl + L`
+- **Move to Previous Word:** `Ctrl + Left Arrow`, `Ctrl + J`
+- **Move to Previous Word with Selection:** `Shift + Ctrl + Left Arrow`, `Shift + Ctrl + J`
+- **Move Cursor Right:** `Right Arrow`, `Alt + L`
+- **Move Cursor Right with Selection:** `Shift + Right Arrow`, `Shift + Alt + L`
+- **Scroll Down:** `Ctrl + Down Arrow`, `Ctrl + Comma`
+- **Scroll Up:** `Ctrl + Up Arrow`, `Ctrl + I`
+- **Select Word at Cursor:** `Ctrl + O`
+- **Move Cursor Up:** `Up Arrow`, `Alt + I`
+- **Move Cursor Up with Selection:** `Shift + Up Arrow`, `Shift + Alt + I`
+
+## File and Project Navigation
+
+- **Toggle Path Display in File Chooser:** `Not specified`
+
+## Search and Find
+
+- **Find Next:** `F3`
+- **Find Previous:** `Shift + F3`
+
+## Code Generation
+
+- **Generate Missing Members (ES6 Syntax):** `Not specified`
+- **Generate Missing Members (TypeScript Syntax):** `Not specified`
+- **Implement Methods:** `Not specified`
+- **Insert Live Template:** `Not specified`
+- **Move Statement Down:** `Shift + Ctrl + Down Arrow`, `Shift + Ctrl + M`, `Shift + Ctrl + Comma`
+- **Move Statement Up:** `Shift + Ctrl + Up Arrow`, `Shift + Ctrl + I`
+- **Override Methods:** `Not specified`
+
+## Code Analysis and Tools
+
+- **Show Parameter Info (Tooltip):** `Not specified`
+- **Show Popup Menu (Select Next Item):** `Down Arrow`, `Alt + Comma`
+- **Quick Implementations:** `Not specified`
+- **Select Next Occurrence:** `Ctrl + P`
+- **Clear Terminal Buffer:** `Not specified`
+- **Navigate to Type Hierarchy:** `Not specified`
+- **Navigate to Base Type in Type Hierarchy:** `Not specified`
+- **Unselect Previous Occurrence:** `Not specified`
+- **Filter Usages by Imports:** `Not specified`
+- **Filter Usages by Write Access:** `Not specified`
+- **Focus Text Filter in Version Control Log:** `Not specified`
+- **Move Changed Lines to Changelist in VCS:** `Not specified`
+- **Toggle Amend Commit Mode in VCS:** `Not specified`
+- **Load Context:** `Not specified`
+- **Toggle Italic Styling in Markdown:** `Not specified`
+
+Please note that some actions might not have default keybindings assigned in the Themofia keymap. You can customize and assign keybindings according to your preference using your IDE's settings.
+
+
+# Themofia Color Scheme
+
+The Themofia is a color scheme configuration used to define the visual appearance of code and console output in an integrated development environment (IDE). This documentation provides an overview of the keymap's structure and its associated color attributes.
 
 ## Scheme Information
 
@@ -111,80 +189,3 @@ The text colors section defines the appearance of text within the IDE.
 ## Conclusion
 
 The Themofia keymap is a color scheme configuration that offers a distinctive visual style for code and console output in the WebStorm IDE. By customizing the various color attributes, developers can create a personalized coding environment that aligns with their preferences and enhances their coding experience.
-
-# Themofia Keymap Keybindings Documentation
-
-The Themofia keymap provides a set of keybindings for various actions within the integrated development environment (IDE). These keybindings enhance productivity by allowing developers to quickly perform common tasks. Below is a list of keybindings and their associated actions in the Themofia keymap.
-
-## Basic Editing
-
-- **Undo:** `Ctrl + Z`
-- **Move to Next Change in Changes View:** `Not specified`
-- **Close Active Content (Tab/Editor):** `Ctrl + F4`, `Ctrl + W`
-
-## Code Navigation and Manipulation
-
-- **Show Code Inspections on Editor:** `Not specified`
-- **Backspace (Delete Previous Character):** `Backspace`
-- **Delete (Delete Next Character):** `Delete`, `Shift + Backspace`
-- **Delete Line:** `Ctrl + Y`, `Alt + Backspace`
-- **Move Cursor Down:** `Down Arrow`, `Alt + Comma`
-- **Move Cursor Down with Selection:** `Shift + Down Arrow`, `Shift + Alt + Comma`
-- **Join Lines:** `Not specified`
-- **Move Cursor Left:** `Left Arrow`, `Alt + J`
-- **Move Cursor Left with Selection:** `Shift + Left Arrow`, `Shift + Alt + J`
-- **Move Cursor to Line End:** `End`, `Alt + Quote`
-- **Move Cursor to Line End with Selection:** `Shift + End`, `Shift + Alt + Quote`
-- **Move Cursor to Line Start:** `Home`, `Alt + H`
-- **Move Cursor to Line Start with Selection:** `Shift + Home`, `Shift + Alt + H`
-- **Match Brace:** `Ctrl + H`, `Alt + M`
-- **Move to Next Word:** `Ctrl + Right Arrow`, `Ctrl + L`
-- **Move to Next Word with Selection:** `Shift + Ctrl + Right Arrow`, `Shift + Ctrl + L`
-- **Move to Previous Word:** `Ctrl + Left Arrow`, `Ctrl + J`
-- **Move to Previous Word with Selection:** `Shift + Ctrl + Left Arrow`, `Shift + Ctrl + J`
-- **Move Cursor Right:** `Right Arrow`, `Alt + L`
-- **Move Cursor Right with Selection:** `Shift + Right Arrow`, `Shift + Alt + L`
-- **Scroll Down:** `Ctrl + Down Arrow`, `Ctrl + Comma`
-- **Scroll Up:** `Ctrl + Up Arrow`, `Ctrl + I`
-- **Select Word at Cursor:** `Ctrl + O`
-- **Move Cursor Up:** `Up Arrow`, `Alt + I`
-- **Move Cursor Up with Selection:** `Shift + Up Arrow`, `Shift + Alt + I`
-
-## File and Project Navigation
-
-- **Toggle Path Display in File Chooser:** `Not specified`
-
-## Search and Find
-
-- **Find Next:** `F3`
-- **Find Previous:** `Shift + F3`
-
-## Code Generation
-
-- **Generate Missing Members (ES6 Syntax):** `Not specified`
-- **Generate Missing Members (TypeScript Syntax):** `Not specified`
-- **Implement Methods:** `Not specified`
-- **Insert Live Template:** `Not specified`
-- **Move Statement Down:** `Shift + Ctrl + Down Arrow`, `Shift + Ctrl + M`, `Shift + Ctrl + Comma`
-- **Move Statement Up:** `Shift + Ctrl + Up Arrow`, `Shift + Ctrl + I`
-- **Override Methods:** `Not specified`
-
-## Code Analysis and Tools
-
-- **Show Parameter Info (Tooltip):** `Not specified`
-- **Show Popup Menu (Select Next Item):** `Down Arrow`, `Alt + Comma`
-- **Quick Implementations:** `Not specified`
-- **Select Next Occurrence:** `Ctrl + P`
-- **Clear Terminal Buffer:** `Not specified`
-- **Navigate to Type Hierarchy:** `Not specified`
-- **Navigate to Base Type in Type Hierarchy:** `Not specified`
-- **Unselect Previous Occurrence:** `Not specified`
-- **Filter Usages by Imports:** `Not specified`
-- **Filter Usages by Write Access:** `Not specified`
-- **Focus Text Filter in Version Control Log:** `Not specified`
-- **Move Changed Lines to Changelist in VCS:** `Not specified`
-- **Toggle Amend Commit Mode in VCS:** `Not specified`
-- **Load Context:** `Not specified`
-- **Toggle Italic Styling in Markdown:** `Not specified`
-
-Please note that some actions might not have default keybindings assigned in the Themofia keymap. You can customize and assign keybindings according to your preference using your IDE's settings.
